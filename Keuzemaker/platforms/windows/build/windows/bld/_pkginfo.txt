@@ -1,0 +1,1 @@
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\AppPackages\CordovaApp.Windows_1.0.0.0_x86_Test\CordovaApp.Windows_1.0.0.0_x86.appx

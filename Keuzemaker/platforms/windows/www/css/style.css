@@ -1,0 +1,49 @@
+﻿/* Empty. Add your own CSS if you like */
+.nr {
+    vertical-align: top;
+    width: 30px;
+    padding-top: 10px;
+}
+.keuze {
+    vertical-align: top;
+    width: calc(100% - 30px);
+    padding-bottom: 14px;
+    text-align: left;
+}
+.keuze input {
+    border-bottom: 1px solid Silver;
+}
+.keuzetabel, .keuze input {
+    width: 100%;
+}
+.center {
+    text-align: center; 
+}
+body {
+    background-image: url(../img/achtergrond.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+.pane, .view {
+    background-color: transparent;
+}
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.keuzeKnop {
+    font-weight: bold;
+}
+.gekozen {
+    background-color: #33cd5f;
+}
+
+.scroll {
+    height: auto !important;
+}
+.keuze span {
+    font-size: 14px;
+    padding-top: 8px;
+    display: block;
+    height: 34px;
+}

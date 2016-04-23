@@ -1,0 +1,1 @@
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\CordovaApp.Windows.jsproj;x86

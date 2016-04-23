@@ -1,0 +1,17 @@
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\release\x86\resources.pri
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\release\x86\AppxManifest.xml
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\release\x86\CordovaApp.Windows.build.appxrecipe
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\priconfig.xml
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\layout.resfiles
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\resources.resfiles
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\pri.resfiles
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\package.map.txt
+C:\Sandbox\Keuzemaker\Keuzemaker1\platforms\windows\build\windows\bld\_pkginfo.txt

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html ng-app="starter">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <script src="js/platformOverrides.js"></script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/controllers.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-controller="KeuzemakerController" class="platform-windows platform-cordova platform-webview">
+    <ion-nav-bar class="bar bar-balanced">
+        <ion-nav-title>Keuzemaker</ion-nav-title>
+    </ion-nav-bar>
+    <ion-content class="has-header animated" id="keuzemakerContent" style="display: none;">
+        <div class="list card">
+            <div class="item item-divider">{{infoText}}</div>
+            <div class="item item-body">
+                <table class="keuzetabel">
+                    <tr ng-repeat="keuze in keuzes">
+                        <td class="nr {{keuze.gekozen ? 'gekozen' : ''}}">{{keuze.index}}. </td>
+                        <td class="keuze {{keuze.gekozen ? 'gekozen' : ''}}">
+                            <input type="text" ng-model="keuze.value" ng-change="onChange(keuze.index)" id="keuze_{{keuze.index}}" ng-if="!keuze.frozen"/>
+                            <span ng-if="keuze.frozen">{{keuze.value}}</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item item-divider">
+                <button class="button button-calm icon-left ion-checkmark" ng-click="kies()">Nu kiezen!</button>
+                <button class="button button-light icon-left ion-close" value="Opnieuw" ng-click="opnieuw()" >Opnieuw</button>
+            </div>
+        </div>
+        <script>
+            var content = document.getElementById("keuzemakerContent");
+            content.setAttribute("class", content.getAttribute("class") + " fadeIn");
+            content.removeAttribute("style");
+        </script>
+    </ion-content>
+</body>
+</html>

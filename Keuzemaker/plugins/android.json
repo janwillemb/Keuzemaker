@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "nl.janwillemboer.keuzemaker"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "nl.janwillemboer.keuzemaker"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "nl.janwillemboer.keuzemaker"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "nl.janwillemboer.keuzemaker"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "nl.janwillemboer.keuzemaker"
+        }
+    },
+    "dependent_plugins": {}
+}
